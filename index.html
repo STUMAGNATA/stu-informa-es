@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stu BS - Brawl Stars</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:black;
+    color:white;
+}
+
+/* BANNER */
+.banner{
+    height:100vh;
+    background:linear-gradient(180deg,#000,#001933,#003b75);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.banner h1{
+    font-size:60px;
+    color:#00aaff;
+    text-shadow:0 0 20px #00aaff;
+}
+
+.banner p{
+    margin-top:10px;
+    font-size:20px;
+    color:#cceeff;
+}
+
+/* BOTÕES */
+.botoes{
+    margin-top:35px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.botoes a{
+    text-decoration:none;
+    background:#00aaff;
+    color:white;
+    padding:15px 30px;
+    border-radius:12px;
+    font-weight:bold;
+    transition:0.3s;
+    box-shadow:0 0 15px #00aaff;
+}
+
+.botoes a:hover{
+    background:#0088cc;
+    transform:scale(1.08);
+}
+
+/* SEÇÕES */
+section{
+    min-height:100vh;
+    padding:80px 20px;
+}
+
+.titulo{
+    font-size:45px;
+    color:#00aaff;
+    margin-bottom:25px;
+    text-shadow:0 0 10px #00aaff;
+}
+
+/* CARDS */
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:#111;
+    border:2px solid #00aaff;
+    border-radius:20px;
+    width:250px;
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
+    box-shadow:0 0 15px #00aaff44;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px #00aaff;
+}
+
+.card h3{
+    color:#00aaff;
+    margin-bottom:10px;
+}
+
+/* RODAPÉ */
+footer{
+    padding:30px;
+    text-align:center;
+    background:#050505;
+    border-top:2px solid #00aaff;
+    color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<!-- BANNER -->
+<div class="banner">
+    <h1>STU BS</h1>
+    <p>Mobile Gamer • Brawl Stars • Highlights</p>
+
+    <div class="botoes">
+        <a href="#mains">Mains</a>
+        <a href="#gameplay">Jogabilidade</a>
+        <a href="#stats">Stats</a>
+    </div>
+</div>
+
+<!-- MAINS -->
+<section id="mains">
+    <h2 class="titulo">⭐ Meus Mains</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Edgar</h3>
+            <p>Gameplay agressiva e rápida.</p>
+        </div>
+
+        <div class="card">
+            <h3>Leon</h3>
+            <p>Stealth e ataques surpresa.</p>
+        </div>
+
+        <div class="card">
+            <h3>Crow</h3>
+            <p>Veneno e pressão constante.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- GAMEPLAY -->
+<section id="gameplay">
+    <h2 class="titulo">🎮 Jogabilidade</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Rankeadas</h3>
+            <p>Partidas competitivas e MVP.</p>
+        </div>
+
+        <div class="card">
+            <h3>Clutches</h3>
+            <p>Momentos insanos no final.</p>
+        </div>
+
+        <div class="card">
+            <h3>Highlights</h3>
+            <p>Melhores jogadas do dia.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+    <h2 class="titulo">🏆 Estatísticas</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Troféus</h3>
+            <p>35.000+</p>
+        </div>
+
+        <div class="card">
+            <h3>Vitórias</h3>
+            <p>5.000+</p>
+        </div>
+
+        <div class="card">
+            <h3>Star Player</h3>
+            <p>1.200+</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Stu BS - Site inspirado em :contentReference[oaicite:0]{index=0}
+</footer>
+
+</body>
+</html>
